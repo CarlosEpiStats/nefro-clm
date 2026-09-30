@@ -2,15 +2,64 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "web",
+    "title": "Nefrología en Castilla-La Mancha",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Datos, análisis y visualizaciones sobre la situación de la nefrología en la región."
+  },
+  {
+    "objectID": "index.html#explora-los-análisis",
+    "href": "index.html#explora-los-análisis",
+    "title": "Nefrología en Castilla-La Mancha",
+    "section": "Explora los análisis",
+    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nDatos y metodología\n\nDescripción de los datos utilizados, las variables analizadas y los criterios de cálculo.\nConsultar la metodología (Próximamente)\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes (Próximamente)"
+  },
+  {
+    "objectID": "index.html#sobre-el-proyecto",
+    "href": "index.html#sobre-el-proyecto",
+    "title": "Nefrología en Castilla-La Mancha",
+    "section": "Sobre el proyecto",
+    "text": "Sobre el proyecto\nEste sitio reúne datos e información relativa al estado de la nefrología en Castilla-La Mancha. El propósito es facilitar el acceso a los análisis y proporcionar un contexto territorial y temporal para interpretar sus principales indicadores.\nConocer el proyecto →"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sobre la web",
     "section": "",
-    "text": "About this site"
+    "text": "Este sitio web pretende reunir datos e información relativa al estado de la nefrología en Castilla-La Mancha en un espacio único, accesible y orientado al análisis.\nEl objetivo es facilitar la consulta de indicadores relevantes, mostrar su evolución a lo largo del tiempo y situar a Castilla-La Mancha en el contexto del conjunto de comunidades autónomas."
+  },
+  {
+    "objectID": "about.html#objetivo",
+    "href": "about.html#objetivo",
+    "title": "Sobre la web",
+    "section": "",
+    "text": "Este sitio web pretende reunir datos e información relativa al estado de la nefrología en Castilla-La Mancha en un espacio único, accesible y orientado al análisis.\nEl objetivo es facilitar la consulta de indicadores relevantes, mostrar su evolución a lo largo del tiempo y situar a Castilla-La Mancha en el contexto del conjunto de comunidades autónomas."
+  },
+  {
+    "objectID": "about.html#alcance",
+    "href": "about.html#alcance",
+    "title": "Sobre la web",
+    "section": "Alcance",
+    "text": "Alcance\nEl proyecto incorpora análisis sobre distintos aspectos relacionados con la actividad nefrológica, entre ellos:\n\ntrasplantes renales;\ntasas por millón de población;\nevolución temporal de los indicadores;\ncomparación entre comunidades autónomas;\nposición relativa de Castilla-La Mancha;\ndiferencias respecto al resto del Estado.\n\nLas páginas de análisis podrán ampliarse progresivamente con nuevos indicadores y fuentes de información."
+  },
+  {
+    "objectID": "trasplantes.html",
+    "href": "trasplantes.html",
+    "title": "Tasa de trasplantes renales por comunidad autónoma",
+    "section": "",
+    "text": "Tasa de trasplantes renales por millón de población."
+  },
+  {
+    "objectID": "trasplantes.html#evolución-2020-2025",
+    "href": "trasplantes.html#evolución-2020-2025",
+    "title": "Tasa de trasplantes renales por comunidad autónoma",
+    "section": "",
+    "text": "Tasa de trasplantes renales por millón de población."
+  },
+  {
+    "objectID": "trasplantes.html#evolución-de-castilla-la-mancha",
+    "href": "trasplantes.html#evolución-de-castilla-la-mancha",
+    "title": "Tasa de trasplantes renales por comunidad autónoma",
+    "section": "Evolución de Castilla-La Mancha",
+    "text": "Evolución de Castilla-La Mancha\nCastilla-La Mancha ocupa una de las posiciones más bajas del conjunto de comunidades autónomas durante todo el periodo analizado. En la mayoría de los años se sitúa como la última región en tasa de trasplantes renales por millón de población o, en algunos casos, como la penúltima.\nLa región parte en 2020 del nivel más bajo observado. Aunque registra un aumento significativo en 2021, este avance no modifica sustancialmente su posición relativa, ya que continúa situada en la parte inferior de la distribución. En 2022 experimenta un ligero descenso y, posteriormente, mejora en 2023.\nDurante 2024 y 2025 la tasa de Castilla-La Mancha permanece prácticamente estable. Sin embargo, esa estabilidad se produce en niveles inferiores a los del resto de las regiones, por lo que no se observa una convergencia clara hacia la media estatal. La línea del total del Estado se mantiene por encima de la regional a lo largo de todo el periodo."
   }
 ]

@@ -4,7 +4,7 @@ library(plotly)
 
 # Load data ----
 datos <- read_csv(
-  file.path("R", "data", "data-ont.csv"),
+  here("R", "data", "data-ont.csv"),
   show_col_types = FALSE
 )
 
@@ -26,41 +26,60 @@ grafico <- ggplot(
     x = year,
     y = tasa_total,
     group = region,
-    text = str_glue(
-      "Región: {region},<br>Año: {year},<br>Tasa: {round(tasa_total, 2)} trasplantes por millón"
+    color = tipo_region,
+    text = paste0(
+      "Región: ",
+      region,
+      "<br>Año: ",
+      year,
+      "<br>Tasa: ",
+      round(tasa_total, 2),
+      " trasplantes por millón"
     )
   )
 ) +
   # Resto de regiones
   geom_line(
     data = filter(datos_grafico, tipo_region == "Resto de regiones"),
-    color = "grey75",
     linewidth = 0.7,
-    alpha = 0.8
+    alpha = 0.55
   ) +
-  # Castilla-La Mancha
-  geom_line(
-    data = filter(datos_grafico, tipo_region == "Castilla-La Mancha"),
-    color = "#DC143C",
-    linewidth = 1.4
+  geom_point(
+    data = filter(datos_grafico, tipo_region == "Resto de regiones"),
+    size = 1.5,
+    alpha = 0.55
   ) +
   # Total Estado
   geom_line(
     data = filter(datos_grafico, tipo_region == "Total Estado"),
-    color = "black",
     linewidth = 1.3,
     linetype = "dashed"
   ) +
   geom_point(
-    aes(color = tipo_region),
-    size = 1.8,
-    alpha = 0.9
+    data = filter(datos_grafico, tipo_region == "Total Estado"),
+    size = 2
+  ) +
+  # Castilla-La Mancha, dibujada en último lugar
+  geom_line(
+    data = filter(datos_grafico, tipo_region == "Castilla-La Mancha"),
+    linewidth = 1.8,
+    alpha = 1
+  ) +
+  geom_point(
+    data = filter(datos_grafico, tipo_region == "Castilla-La Mancha"),
+    size = 2.5,
+    alpha = 1
   ) +
   scale_color_manual(
     values = c(
-      "Resto de regiones" = "grey75",
+      "Resto de regiones" = "#BDBDBD",
       "Castilla-La Mancha" = "#DC143C",
-      "Total Estado" = "black"
+      "Total Estado" = "#000000"
+    ),
+    breaks = c(
+      "Castilla-La Mancha",
+      "Total Estado",
+      "Resto de regiones"
     )
   ) +
   scale_x_continuous(
@@ -70,8 +89,7 @@ grafico <- ggplot(
     title = "Tasa de trasplantes renales por millón de población",
     x = "Año",
     y = "Trasplantes por millón de población",
-    color = NULL,
-    caption = "Fuente: ONT. Actividad de donación y trasplante renal España. Años 2020-2025.<br>Elaboración propia"
+    color = NULL
   ) +
   theme_minimal(base_size = 13) +
   theme(
@@ -112,3 +130,8 @@ grafico_interactivo <- ggplotly(
     )
   )
 grafico_interactivo
+
+saveRDS(
+  grafico_interactivo,
+  here("R", "data", "grafico-ont.rds")
+)

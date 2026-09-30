@@ -1,13 +1,20 @@
 project:
   type: website
 
+lang: es
+
 website:
   title: "Nefro-CLM"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Inicio
+      - text: Análisis
+        menu:
+        - href: trasplantes.qmd
+          text: Trasplantes renales
+      - href: about.qmd
+        text: Sobre la web
 
 format:
   html:

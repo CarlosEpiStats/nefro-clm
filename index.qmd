@@ -1,7 +1,72 @@
 ---
-title: "web"
+title: "Nefrología en Castilla-La Mancha"
+page-layout: full
 ---
 
-This is a Quarto website.
+Datos, análisis y visualizaciones sobre la situación de la nefrología en la región.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Explora los análisis
+
+```{r}
+#| label: analysis-cards
+#| echo: false
+#| warning: false
+#| message: false
+library(bslib)
+library(htmltools)
+
+card_trasplantes <- card(
+    card_header("Trasplantes renales"),
+    card_body(
+    p(
+        "Evolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas."
+    ),
+    a(
+        href = "trasplantes.html",
+        class = "btn btn-primary",
+        "Ver el análisis"
+    )
+    )
+)
+
+card_metodologia <- card(
+    card_header("Datos y metodología"),
+    card_body(
+    p(
+        "Descripción de los datos utilizados, las variables analizadas y los criterios de cálculo."
+    ),
+    a(
+        class = "btn btn-outline-primary disabled",
+        "Consultar la metodología (Próximamente)"
+    )
+    )
+)
+
+card_fuentes <- card(
+    card_header("Fuentes de información"),
+    card_body(
+    p(
+        "Relación de las fuentes empleadas en los análisis del proyecto."
+    ),
+    a(
+        class = "btn btn-outline-primary disabled",
+        "Ver las fuentes (Próximamente)"
+    )
+    )
+)
+
+layout_column_wrap(
+    width = 1/3,
+    gap = "1.5rem",
+    card_trasplantes,
+    card_metodologia,
+    card_fuentes
+)
+```
+
+
+## Sobre el proyecto
+
+Este sitio reúne datos e información relativa al estado de la nefrología en Castilla-La Mancha. El propósito es facilitar el acceso a los análisis y proporcionar un contexto territorial y temporal para interpretar sus principales indicadores.
+
+[Conocer el proyecto →](about.qmd)

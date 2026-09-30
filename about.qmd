@@ -1,5 +1,22 @@
 ---
-title: "About"
+title: "Sobre la web"
 ---
 
-About this site
+## Objetivo
+
+Este sitio web pretende reunir datos e información relativa al estado de la nefrología en Castilla-La Mancha en un espacio único, accesible y orientado al análisis.
+
+El objetivo es facilitar la consulta de indicadores relevantes, mostrar su evolución a lo largo del tiempo y situar a Castilla-La Mancha en el contexto del conjunto de comunidades autónomas.
+
+## Alcance
+
+El proyecto incorpora análisis sobre distintos aspectos relacionados con la actividad nefrológica, entre ellos:
+
+- trasplantes renales;
+- tasas por millón de población;
+- evolución temporal de los indicadores;
+- comparación entre comunidades autónomas;
+- posición relativa de Castilla-La Mancha;
+- diferencias respecto al resto del Estado.
+
+Las páginas de análisis podrán ampliarse progresivamente con nuevos indicadores y fuentes de información.

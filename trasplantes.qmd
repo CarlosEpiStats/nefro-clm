@@ -1,0 +1,37 @@
+---
+title: Tasa de trasplantes renales por comunidad autónoma
+lang: es
+format:
+  html:
+    toc: true
+    toc-title: Contenido
+    self-contained: true
+jupyter: false
+---
+
+## Evolución 2020-2025
+
+```{r}
+#| label: interactive-chart
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Tasa de trasplantes renales por millón de población."
+#| fig-width: 10
+#| fig-height: 10
+library(plotly)
+library(here)
+
+grafico_interactivo <- readRDS(
+    here("R", "data", "grafico-ont.rds")
+)
+grafico_interactivo
+```
+
+## Evolución de Castilla-La Mancha
+
+Castilla-La Mancha ocupa una de las posiciones más bajas del conjunto de comunidades autónomas durante todo el periodo analizado. En la mayoría de los años se sitúa como la última región en tasa de trasplantes renales por millón de población o, en algunos casos, como la penúltima.
+
+La región parte en 2020 del nivel más bajo observado. Aunque registra un aumento significativo en 2021, este avance no modifica sustancialmente su posición relativa, ya que continúa situada en la parte inferior de la distribución. En 2022 experimenta un ligero descenso y, posteriormente, mejora en 2023.
+
+Durante 2024 y 2025 la tasa de Castilla-La Mancha permanece prácticamente estable. Sin embargo, esa estabilidad se produce en niveles inferiores a los del resto de las regiones, por lo que no se observa una convergencia clara hacia la media estatal. La línea del total del Estado se mantiene por encima de la regional a lo largo de todo el periodo.
