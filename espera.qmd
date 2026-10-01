@@ -1,0 +1,100 @@
+---
+title: Lista de espera renal estimada por comunidad autónoma
+execute: 
+  fig-height: 10
+  fig-width: 10
+---
+
+```{r}
+#| label: setup
+library(plotly)
+library(here)
+
+read_data <- function(filename){
+  readRDS(
+    here("R", "data", paste0(filename, ".rds"))
+  )
+}
+
+plot_espera_lineas <- read_data("plot_espera_lineas")
+plot_espera_2020 <- read_data("plot_espera_2020")
+plot_espera_2021 <- read_data("plot_espera_2021")
+plot_espera_2022 <- read_data("plot_espera_2022")
+plot_espera_2023 <- read_data("plot_espera_2023")
+plot_espera_2024 <- read_data("plot_espera_2024")
+plot_espera_2025 <- read_data("plot_espera_2025")
+```
+## Evolución 2020-2025
+
+```{r}
+#| label: plot-espera-lineas
+#| fig-cap: Tasa de espera estimada por millón de población, años 2020-2025.
+plot_espera_lineas
+```
+
+## Datos año a año
+
+::: {.panel-tabset}
+
+## 2025
+
+```{r}
+#| label: plot-espera-2025
+#| fig-cap: Tasa de espera estimada por millón de población, año 2025.
+plot_espera_2025
+```
+
+## 2024
+
+```{r}
+#| label: plot-espera-2024
+#| fig-cap: Tasa de espera estimada por millón de población, año 2024.
+plot_espera_2024
+```
+
+## 2023
+
+```{r}
+#| label: plot-espera-2023
+#| fig-cap: Tasa de espera estimada por millón de población, año 2023.
+plot_espera_2023
+```
+
+## 2022
+
+```{r}
+#| label: plot-espera-2022
+#| fig-cap: Tasa de espera estimada por millón de población, año 2022.
+plot_espera_2022
+```
+
+## 2021
+
+```{r}
+#| label: plot-espera-2021
+#| fig-cap: Tasa de espera estimada por millón de población, año 2021.
+plot_espera_2021
+```
+
+## 2020
+
+```{r}
+#| label: plot-espera-2020
+#| fig-cap: Tasa de espera estimada por millón de población, año 2020.
+plot_espera_2020
+```
+
+
+
+:::
+
+
+## Evolución de Castilla-La Mancha
+
+La lista de espera renal estimada en Castilla-La Mancha parte de unos 75 pacientes por millón de habitantes en 2020 y aumenta ligeramente en 2021. Alcanza su máximo, alrededor de 102, en 2022; después desciende hasta aproximadamente 80 en 2024, antes de recuperar ese nivel en 2025. 
+
+Durante todo el periodo, Castilla-La Mancha se mantiene por debajo de la media estatal (línea negra discontinua). La diferencia se reduce en 2022, cuando la media nacional ronda 157 frente a unos 102 en la región, pero vuelve a ampliarse en 2024-2025: el Estado se sitúa cerca de 167-172, mientras Castilla-La Mancha permanece alrededor de 80-102. Esto indica una presión relativa de la lista de espera considerablemente menor en la comunidad que en el conjunto del país.
+
+## Referencias
+
+[Informes de la Organización Nacional de Transplantes (ONT)](sources.qmd#sec-informes-ont).

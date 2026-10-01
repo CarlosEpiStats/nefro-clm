@@ -6,7 +6,7 @@ title: "Referencias"
 
 ### Informes de la ONT {#sec-informes-ont}
 
-Informes "Actividad de donación y trasplante en España" de la Organización Nacional de Trasplantes (ONT):
+Informes "Actividad de donación y trasplante renal en España" de la Organización Nacional de Trasplantes (ONT):
 
 - [Informe 2025](documentos/informes-ont/ACTIVIDAD-DE-DONACION-Y-TRASPLANTE-RENAL-ESPANA-2025%20-%201.pdf)
 - [Informe 2024](documentos/informes-ont/ACTIVIDAD-DE-DONACION-Y-TRASPLANTE-RENAL-ESPANA-2024.pdf)

@@ -11,7 +11,7 @@
     "href": "index.html#explora-los-análisis",
     "title": "Nefrología en Castilla-La Mancha",
     "section": "Explora los análisis",
-    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nDatos y metodología\n\nDescripción de los datos utilizados, las variables analizadas y los criterios de cálculo.\nConsultar la metodología (Próximamente)\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
+    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nLista de espera renal\n\nEvolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nDatos y metodología\n\nDescripción de los datos utilizados, las variables analizadas y los criterios de cálculo.\nConsultar la metodología (Próximamente)\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
   },
   {
     "objectID": "index.html#sobre-el-proyecto",
@@ -46,14 +46,49 @@
     "href": "sources.html",
     "title": "Referencias",
     "section": "",
-    "text": "Informes “Actividad de donación y trasplante en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+    "text": "Informes “Actividad de donación y trasplante renal en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
   },
   {
     "objectID": "sources.html#análisis-de-los-trasplantes-renales",
     "href": "sources.html#análisis-de-los-trasplantes-renales",
     "title": "Referencias",
     "section": "",
-    "text": "Informes “Actividad de donación y trasplante en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+    "text": "Informes “Actividad de donación y trasplante renal en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+  },
+  {
+    "objectID": "espera.html",
+    "href": "espera.html",
+    "title": "Lista de espera renal estimada por comunidad autónoma",
+    "section": "",
+    "text": "Tasa de espera estimada por millón de población, años 2020-2025."
+  },
+  {
+    "objectID": "espera.html#evolución-2020-2025",
+    "href": "espera.html#evolución-2020-2025",
+    "title": "Lista de espera renal estimada por comunidad autónoma",
+    "section": "",
+    "text": "Tasa de espera estimada por millón de población, años 2020-2025."
+  },
+  {
+    "objectID": "espera.html#datos-año-a-año",
+    "href": "espera.html#datos-año-a-año",
+    "title": "Lista de espera renal estimada por comunidad autónoma",
+    "section": "Datos año a año",
+    "text": "Datos año a año\n\n202520242023202220212020\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2025.\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2024.\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2023.\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2022.\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2021.\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2020."
+  },
+  {
+    "objectID": "espera.html#evolución-de-castilla-la-mancha",
+    "href": "espera.html#evolución-de-castilla-la-mancha",
+    "title": "Lista de espera renal estimada por comunidad autónoma",
+    "section": "Evolución de Castilla-La Mancha",
+    "text": "Evolución de Castilla-La Mancha\nLa lista de espera renal estimada en Castilla-La Mancha parte de unos 75 pacientes por millón de habitantes en 2020 y aumenta ligeramente en 2021. Alcanza su máximo, alrededor de 102, en 2022; después desciende hasta aproximadamente 80 en 2024, antes de recuperar ese nivel en 2025.\nDurante todo el periodo, Castilla-La Mancha se mantiene por debajo de la media estatal (línea negra discontinua). La diferencia se reduce en 2022, cuando la media nacional ronda 157 frente a unos 102 en la región, pero vuelve a ampliarse en 2024-2025: el Estado se sitúa cerca de 167-172, mientras Castilla-La Mancha permanece alrededor de 80-102. Esto indica una presión relativa de la lista de espera considerablemente menor en la comunidad que en el conjunto del país."
+  },
+  {
+    "objectID": "espera.html#referencias",
+    "href": "espera.html#referencias",
+    "title": "Lista de espera renal estimada por comunidad autónoma",
+    "section": "Referencias",
+    "text": "Referencias\nInformes de la Organización Nacional de Transplantes (ONT)."
   },
   {
     "objectID": "trasplantes.html",

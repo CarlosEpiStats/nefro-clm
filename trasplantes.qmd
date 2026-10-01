@@ -1,9 +1,6 @@
 ---
 title: Tasa de trasplantes renales por comunidad autónoma
 execute: 
-  echo: false
-  warning: false
-  message: false
   fig-height: 10
   fig-width: 10
 ---

@@ -16,6 +16,8 @@ website:
         menu:
         - href: trasplantes.qmd
           text: Trasplantes renales
+        - href: espera.qmd
+          text: Lista de espera renal
         - href: sources.qmd
           text: Referencias
       - href: about.qmd
