@@ -1,6 +1,5 @@
 ---
 title: "Nefrología en Castilla-La Mancha"
-page-layout: full
 ---
 
 Datos, análisis y visualizaciones sobre la situación de la nefrología en la región.
@@ -9,9 +8,6 @@ Datos, análisis y visualizaciones sobre la situación de la nefrología en la r
 
 ```{r}
 #| label: analysis-cards
-#| echo: false
-#| warning: false
-#| message: false
 library(bslib)
 library(htmltools)
 
@@ -49,8 +45,9 @@ card_fuentes <- card(
         "Relación de las fuentes empleadas en los análisis del proyecto."
     ),
     a(
-        class = "btn btn-outline-primary disabled",
-        "Ver las fuentes (Próximamente)"
+        href = "sources.html",
+        class = "btn btn-outline-primary",
+        "Ver las fuentes"
     )
     )
 )

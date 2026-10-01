@@ -7,6 +7,8 @@ lang: es
 website:
   title: "Nefro-CLM"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Inicio
@@ -14,6 +16,8 @@ website:
         menu:
         - href: trasplantes.qmd
           text: Trasplantes renales
+        - href: sources.qmd
+          text: Referencias
       - href: about.qmd
         text: Sobre la web
 
@@ -25,5 +29,8 @@ format:
     css: styles.css
     toc: true
 
-
+execute:
+  echo: false
+  warning: false
+  message: false
 

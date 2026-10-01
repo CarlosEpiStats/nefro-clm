@@ -1,6 +1,71 @@
 # Setup ----
 library(tidyverse)
 library(plotly)
+library(here)
+
+# Custom functions ----
+theme_nefro <- function() {
+  theme_minimal(base_size = 13) +
+    theme(
+      legend.position = "bottom",
+      panel.grid.minor = element_blank(),
+      plot.title = element_text(face = "bold")
+    )
+}
+
+make_plotly <- function(p) {
+  p |>
+    ggplotly(tooltip = "text") |>
+    layout(
+      hoverlabel = list(
+        bgcolor = "white",
+        font = list(color = "black")
+      ),
+      xaxis = list(fixedrange = TRUE),
+      yaxis = list(fixedrange = TRUE)
+    ) |>
+    config(
+      displayModeBar = FALSE
+    )
+}
+
+values_nefro <- function() {
+  c(
+    "Resto de regiones" = "#BDBDBD",
+    "Castilla-La Mancha" = "#DC143C",
+    "Total Estado" = "#000000"
+  )
+}
+
+plot_transplant_year <- function(year_val) {
+  p <- datos_grafico |>
+    dplyr::filter(year == year_val) |>
+    ggplot(
+      aes(
+        x = tasa_total,
+        y = fct_reorder(region, tasa_total),
+        fill = tipo_region,
+        text = hovertext
+      )
+    ) +
+    geom_col() +
+    scale_fill_manual(values = values_nefro()) +
+    labs(
+      x = "Trasplantes por millón de población",
+      y = NULL,
+      fill = NULL
+    ) +
+    theme_nefro()
+  p |> make_plotly()
+}
+
+save_data <- function(object) {
+  file_name <- deparse(substitute(object))
+  saveRDS(
+    object,
+    here("R", "data", paste0(file_name, ".rds"))
+  )
+}
 
 # Load data ----
 datos <- read_csv(
@@ -16,26 +81,23 @@ datos_grafico <- datos |>
       region == "CASTILLA LA MANCHA" ~ "Castilla-La Mancha",
       region == "TOTAL ESTADO" ~ "Total Estado",
       TRUE ~ "Resto de regiones"
+    ),
+    tasa_round = format(round(tasa_total, 2), nsmall = 2),
+    hovertext = str_glue(
+      "Región: {region}<br>Año: {year}<br>Tasa: {tasa_round} trasplantes por millón"
     )
   )
 
+# Gráfico de líneas ----
 # Gráfico base con ggplot2
-grafico <- ggplot(
+grafico_lineas <- ggplot(
   datos_grafico,
   aes(
     x = year,
     y = tasa_total,
     group = region,
     color = tipo_region,
-    text = paste0(
-      "Región: ",
-      region,
-      "<br>Año: ",
-      year,
-      "<br>Tasa: ",
-      round(tasa_total, 2),
-      " trasplantes por millón"
-    )
+    text = hovertext
   )
 ) +
   # Resto de regiones
@@ -70,68 +132,35 @@ grafico <- ggplot(
     size = 2.5,
     alpha = 1
   ) +
-  scale_color_manual(
-    values = c(
-      "Resto de regiones" = "#BDBDBD",
-      "Castilla-La Mancha" = "#DC143C",
-      "Total Estado" = "#000000"
-    ),
-    breaks = c(
-      "Castilla-La Mancha",
-      "Total Estado",
-      "Resto de regiones"
-    )
-  ) +
+  scale_color_manual(values = values_nefro()) +
   scale_x_continuous(
     breaks = sort(unique(datos_grafico$year))
   ) +
   labs(
-    title = "Tasa de trasplantes renales por millón de población",
     x = "Año",
     y = "Trasplantes por millón de población",
     color = NULL
   ) +
-  theme_minimal(base_size = 13) +
-  theme(
-    legend.position = "bottom",
-    panel.grid.minor = element_blank(),
-    plot.title = element_text(face = "bold")
-  )
+  theme_nefro()
 
 # Convertir el gráfico a interactivo
-grafico_interactivo <- ggplotly(
-  grafico,
-  tooltip = "text"
-) |>
-  layout(
-    hoverlabel = list(
-      bgcolor = "white",
-      font = list(color = "black")
-    ),
-    annotations = list(
-      list(
-        text = "Fuente: elaboración propia a partir de los informes de Actividad de donación y trasplante renal en España, Organización Nacional de Transplantes.",
-        x = 0,
-        y = -0.2,
-        xref = "paper",
-        yref = "paper",
-        xanchor = "left",
-        yanchor = "top",
-        showarrow = FALSE,
-        align = "left",
-        font = list(
-          size = 10,
-          color = "grey40"
-        )
-      )
-    ),
-    margin = list(
-      b = 150
-    )
-  )
-grafico_interactivo
+plot_trasplantes_lineas <- grafico |> make_plotly()
 
-saveRDS(
-  grafico_interactivo,
-  here("R", "data", "grafico-ont.rds")
-)
+
+# Gráficos de barras ----
+plot_trasplantes_2020 <- plot_transplant_year(2020)
+plot_trasplantes_2021 <- plot_transplant_year(2021)
+plot_trasplantes_2022 <- plot_transplant_year(2022)
+plot_trasplantes_2023 <- plot_transplant_year(2023)
+plot_trasplantes_2024 <- plot_transplant_year(2024)
+plot_trasplantes_2025 <- plot_transplant_year(2025)
+
+# Guardar objetos ----
+
+save_data(plot_trasplantes_lineas)
+save_data(plot_trasplantes_2020)
+save_data(plot_trasplantes_2021)
+save_data(plot_trasplantes_2022)
+save_data(plot_trasplantes_2023)
+save_data(plot_trasplantes_2024)
+save_data(plot_trasplantes_2025)

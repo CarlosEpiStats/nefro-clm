@@ -11,7 +11,7 @@
     "href": "index.html#explora-los-análisis",
     "title": "Nefrología en Castilla-La Mancha",
     "section": "Explora los análisis",
-    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nDatos y metodología\n\nDescripción de los datos utilizados, las variables analizadas y los criterios de cálculo.\nConsultar la metodología (Próximamente)\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes (Próximamente)"
+    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nDatos y metodología\n\nDescripción de los datos utilizados, las variables analizadas y los criterios de cálculo.\nConsultar la metodología (Próximamente)\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
   },
   {
     "objectID": "index.html#sobre-el-proyecto",
@@ -42,18 +42,39 @@
     "text": "Alcance\nEl proyecto incorpora análisis sobre distintos aspectos relacionados con la actividad nefrológica, entre ellos:\n\ntrasplantes renales;\ntasas por millón de población;\nevolución temporal de los indicadores;\ncomparación entre comunidades autónomas;\nposición relativa de Castilla-La Mancha;\ndiferencias respecto al resto del Estado.\n\nLas páginas de análisis podrán ampliarse progresivamente con nuevos indicadores y fuentes de información."
   },
   {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Informes “Actividad de donación y trasplante en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+  },
+  {
+    "objectID": "sources.html#análisis-de-los-trasplantes-renales",
+    "href": "sources.html#análisis-de-los-trasplantes-renales",
+    "title": "Referencias",
+    "section": "",
+    "text": "Informes “Actividad de donación y trasplante en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+  },
+  {
     "objectID": "trasplantes.html",
     "href": "trasplantes.html",
     "title": "Tasa de trasplantes renales por comunidad autónoma",
     "section": "",
-    "text": "Tasa de trasplantes renales por millón de población."
+    "text": "Tasa de trasplantes renales por millón de población, años 2020-2025."
   },
   {
     "objectID": "trasplantes.html#evolución-2020-2025",
     "href": "trasplantes.html#evolución-2020-2025",
     "title": "Tasa de trasplantes renales por comunidad autónoma",
     "section": "",
-    "text": "Tasa de trasplantes renales por millón de población."
+    "text": "Tasa de trasplantes renales por millón de población, años 2020-2025."
+  },
+  {
+    "objectID": "trasplantes.html#datos-año-a-año",
+    "href": "trasplantes.html#datos-año-a-año",
+    "title": "Tasa de trasplantes renales por comunidad autónoma",
+    "section": "Datos año a año",
+    "text": "Datos año a año\n\n202520242023202220212020\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2025.\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2024.\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2023.\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2022.\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2021.\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2020."
   },
   {
     "objectID": "trasplantes.html#evolución-de-castilla-la-mancha",
@@ -61,5 +82,12 @@
     "title": "Tasa de trasplantes renales por comunidad autónoma",
     "section": "Evolución de Castilla-La Mancha",
     "text": "Evolución de Castilla-La Mancha\nCastilla-La Mancha ocupa una de las posiciones más bajas del conjunto de comunidades autónomas durante todo el periodo analizado. En la mayoría de los años se sitúa como la última región en tasa de trasplantes renales por millón de población o, en algunos casos, como la penúltima.\nLa región parte en 2020 del nivel más bajo observado. Aunque registra un aumento significativo en 2021, este avance no modifica sustancialmente su posición relativa, ya que continúa situada en la parte inferior de la distribución. En 2022 experimenta un ligero descenso y, posteriormente, mejora en 2023.\nDurante 2024 y 2025 la tasa de Castilla-La Mancha permanece prácticamente estable. Sin embargo, esa estabilidad se produce en niveles inferiores a los del resto de las regiones, por lo que no se observa una convergencia clara hacia la media estatal. La línea del total del Estado se mantiene por encima de la regional a lo largo de todo el periodo."
+  },
+  {
+    "objectID": "trasplantes.html#referencias",
+    "href": "trasplantes.html#referencias",
+    "title": "Tasa de trasplantes renales por comunidad autónoma",
+    "section": "Referencias",
+    "text": "Referencias\nInformes de la Organización Nacional de Transplantes (ONT)."
   }
 ]
