@@ -14,19 +14,28 @@ theme_nefro <- function() {
 
 #' Convert ggplot to plotly
 make_plotly <- function(p) {
-  p |>
-    ggplotly(tooltip = "text") |>
-    layout(
+  g <- ggplotly(p, tooltip = "text")
+
+  axis_names <- names(g$x$layout) |>
+    keep(~ str_detect(.x, "^[xy]axis[0-9]*$"))
+
+  axis_settings <- axis_names |>
+    set_names() |>
+    map(~ list(fixedrange = TRUE))
+
+  layout_args <- c(
+    list(
+      g,
       hoverlabel = list(
         bgcolor = "white",
         font = list(color = "black")
-      ),
-      xaxis = list(fixedrange = TRUE),
-      yaxis = list(fixedrange = TRUE)
-    ) |>
-    config(
-      displayModeBar = FALSE
-    )
+      )
+    ),
+    axis_settings
+  )
+
+  do.call(layout, layout_args) |>
+    config(displayModeBar = FALSE)
 }
 
 #' Color scale

@@ -25,6 +25,7 @@ ggplot_presupuestos <- presupuestos |>
   select(
     clasificacion,
     year,
+    text,
     Superávit = definitivo,
     Déficit = obligado
   ) |>
@@ -37,7 +38,8 @@ ggplot_presupuestos <- presupuestos |>
     aes(
       x = value,
       y = fct_rev(factor(year)),
-      fill = var
+      fill = var,
+      text = text
     )
   ) +
   geom_col(position = "identity", alpha = 0.5) +
