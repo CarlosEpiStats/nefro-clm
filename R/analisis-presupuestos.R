@@ -54,7 +54,7 @@ ggplot_presupuestos <- presupuestos |>
     labels = label_number(big.mark = " ", decimal.mark = ",", scale = 1 / 1000)
   ) +
   labs(
-    x = "Candidad (miles de euros)",
+    x = "Cantidad (miles de euros)",
     y = "Año",
     fill = NULL
   ) +
