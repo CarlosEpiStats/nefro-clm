@@ -15,11 +15,17 @@ presupuestos <- read_data("presupuestos")
 ggplot_presupuestos <- presupuestos |>
   # quitar columnas redundantes
   mutate(
+    presupuestado_format = format_big(definitivo),
+    ejecutado_format = format_big(obligado),
+    is_deficit = obligado > definitivo,
+    diferencia = abs(definitivo - obligado),
+    diferencia_format = format_big(diferencia),
     text = str_glue(
       "{clasificacion}",
       "<br>Año: {year}",
-      "<br>Presupuestado: {format(definitivo, big.mark = ' ', decimal.mark = ',')} euros",
-      "<br>Ejecutado: {format(obligado, big.mark = ' ', decimal.mark = ',')} euros"
+      "<br>Presupuestado: {presupuestado_format} euros",
+      "<br>Ejecutado: {ejecutado_format} euros",
+      "<br>{if_else(is_deficit, 'Déficit', 'Superávit')}: {diferencia_format} euros"
     )
   ) |>
   select(

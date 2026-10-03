@@ -61,3 +61,12 @@ card_with_info <- function(
     )
   )
 }
+
+#' Formatear decimales
+format_big <- function(x) {
+  format(
+    round(x),
+    big.mark = ' ',
+    decimal.mark = ','
+  )
+}
