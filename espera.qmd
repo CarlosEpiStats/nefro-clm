@@ -7,14 +7,13 @@ execute:
 
 ```{r}
 #| label: setup
-library(plotly)
 library(here)
+library(tidyverse)
+library(bslib)
+library(htmltools)
+library(plotly)
 
-read_data <- function(filename){
-  readRDS(
-    here("R", "data", paste0(filename, ".rds"))
-  )
-}
+source(here("R", "utils_helpers.R"))
 
 plot_espera_lineas <- read_data("plot_espera_lineas")
 plot_espera_2020 <- read_data("plot_espera_2020")
@@ -28,8 +27,7 @@ plot_espera_2025 <- read_data("plot_espera_2025")
 
 ```{r}
 #| label: plot-espera-lineas
-#| fig-cap: Tasa de espera estimada por millón de población, años 2020-2025.
-plot_espera_lineas
+card_with_info("espera", "años 2020-2025", plot_espera_lineas)
 ```
 
 ## Datos año a año
@@ -40,48 +38,42 @@ plot_espera_lineas
 
 ```{r}
 #| label: plot-espera-2025
-#| fig-cap: Tasa de espera estimada por millón de población, año 2025.
-plot_espera_2025
+card_with_info("espera", "año 2025", plot_espera_2025)
 ```
 
 ## 2024
 
 ```{r}
 #| label: plot-espera-2024
-#| fig-cap: Tasa de espera estimada por millón de población, año 2024.
-plot_espera_2024
+card_with_info("espera", "año 2024", plot_espera_2024)
 ```
 
 ## 2023
 
 ```{r}
 #| label: plot-espera-2023
-#| fig-cap: Tasa de espera estimada por millón de población, año 2023.
-plot_espera_2023
+card_with_info("espera", "año 2023", plot_espera_2023)
 ```
 
 ## 2022
 
 ```{r}
 #| label: plot-espera-2022
-#| fig-cap: Tasa de espera estimada por millón de población, año 2022.
-plot_espera_2022
+card_with_info("espera", "año 2022", plot_espera_2022)
 ```
 
 ## 2021
 
 ```{r}
 #| label: plot-espera-2021
-#| fig-cap: Tasa de espera estimada por millón de población, año 2021.
-plot_espera_2021
+card_with_info("espera", "año 2021", plot_espera_2021)
 ```
 
 ## 2020
 
 ```{r}
 #| label: plot-espera-2020
-#| fig-cap: Tasa de espera estimada por millón de población, año 2020.
-plot_espera_2020
+card_with_info("espera", "año 2020", plot_espera_2020)
 ```
 
 
