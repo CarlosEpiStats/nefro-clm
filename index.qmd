@@ -12,67 +12,68 @@ library(bslib)
 library(htmltools)
 
 card_trasplantes <- card(
-    card_header("Trasplantes renales"),
-    card_body(
+  card_header("Trasplantes renales"),
+  card_body(
     p(
-        "Evolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas."
+      "Evolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas."
     ),
     a(
-        href = "trasplantes.html",
-        class = "btn btn-primary",
-        "Ver el análisis"
+      href = "trasplantes.html",
+      class = "btn btn-primary",
+      "Ver el análisis"
     )
-    )
+  )
 )
 
 card_espera <- card(
-    card_header("Lista de espera renal"),
-    card_body(
+  card_header("Lista de espera renal"),
+  card_body(
     p(
-        "Evolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas."
+      "Evolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas."
     ),
     a(
-        href = "espera.html",
-        class = "btn btn-primary",
-        "Ver el análisis"
+      href = "espera.html",
+      class = "btn btn-primary",
+      "Ver el análisis"
     )
-    )
+  )
 )
 
-card_metodologia <- card(
-    card_header("Datos y metodología"),
-    card_body(
+card_presupuestos <- card(
+  card_header("Presupuestos de hemodiálisis"),
+  card_body(
     p(
-        "Descripción de los datos utilizados, las variables analizadas y los criterios de cálculo."
+      "Presupuestos sanitarios anuales en Castilla-La Mancha: presupuestado vs. ejectuado."
     ),
     a(
-        class = "btn btn-outline-primary disabled",
-        "Consultar la metodología (Próximamente)"
+      href = "presupuestos.html",
+      class = "btn btn-primary",
+      "Ver el análisis"
     )
-    )
+  )
 )
 
 card_fuentes <- card(
-    card_header("Fuentes de información"),
-    card_body(
+  card_header("Fuentes de información"),
+  card_body(
     p(
-        "Relación de las fuentes empleadas en los análisis del proyecto."
+      "Relación de las fuentes empleadas en los análisis del proyecto."
     ),
     a(
-        href = "sources.html",
-        class = "btn btn-outline-primary",
-        "Ver las fuentes"
+      href = "sources.html",
+      class = "btn btn-outline-primary",
+      "Ver las fuentes"
     )
-    )
+  )
 )
 
 layout_column_wrap(
-    width = 1/2,
-    gap = "1.5rem",
-    card_trasplantes,
-    card_espera,
-    card_metodologia,
-    card_fuentes
+  width = 1 / 2,
+  gap = "1.5rem",
+  card_trasplantes,
+  card_espera,
+  card_presupuestos,
+  card_fuentes
 )
 ```
 

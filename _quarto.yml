@@ -18,6 +18,8 @@ website:
           text: Trasplantes renales
         - href: espera.qmd
           text: Lista de espera renal
+        - href: presupuestos.qmd
+          text: Presupuestos de hemodiálisis
         - href: sources.qmd
           text: Referencias
       - href: about.qmd

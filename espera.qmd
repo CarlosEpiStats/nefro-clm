@@ -14,6 +14,7 @@ library(htmltools)
 library(plotly)
 
 source(here("R", "utils_helpers.R"))
+source(here("R", "fct_plots.R"))
 
 plot_espera_lineas <- read_data("plot_espera_lineas")
 plot_espera_2020 <- read_data("plot_espera_2020")

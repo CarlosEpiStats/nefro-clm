@@ -11,7 +11,7 @@
     "href": "index.html#explora-los-análisis",
     "title": "Nefrología en Castilla-La Mancha",
     "section": "Explora los análisis",
-    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nLista de espera renal\n\nEvolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nDatos y metodología\n\nDescripción de los datos utilizados, las variables analizadas y los criterios de cálculo.\nConsultar la metodología (Próximamente)\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
+    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nLista de espera renal\n\nEvolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nPresupuestos de hemodiálisis\n\nPresupuestos sanitarios anuales en Castilla-La Mancha: presupuestado vs. ejectuado.\nVer el análisis\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
   },
   {
     "objectID": "index.html#sobre-el-proyecto",
@@ -40,20 +40,6 @@
     "title": "Sobre la web",
     "section": "Alcance",
     "text": "Alcance\nEl proyecto incorpora análisis sobre distintos aspectos relacionados con la actividad nefrológica, entre ellos:\n\ntrasplantes renales;\ntasas por millón de población;\nevolución temporal de los indicadores;\ncomparación entre comunidades autónomas;\nposición relativa de Castilla-La Mancha;\ndiferencias respecto al resto del Estado.\n\nLas páginas de análisis podrán ampliarse progresivamente con nuevos indicadores y fuentes de información."
-  },
-  {
-    "objectID": "sources.html",
-    "href": "sources.html",
-    "title": "Referencias",
-    "section": "",
-    "text": "Informes “Actividad de donación y trasplante renal en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
-  },
-  {
-    "objectID": "sources.html#análisis-de-los-trasplantes-renales",
-    "href": "sources.html#análisis-de-los-trasplantes-renales",
-    "title": "Referencias",
-    "section": "",
-    "text": "Informes “Actividad de donación y trasplante renal en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
   },
   {
     "objectID": "espera.html",
@@ -89,6 +75,48 @@
     "title": "Lista de espera renal estimada por comunidad autónoma",
     "section": "Referencias",
     "text": "Referencias\nInformes de la Organización Nacional de Transplantes (ONT)."
+  },
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Informes “Actividad de donación y trasplante renal en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+  },
+  {
+    "objectID": "sources.html#análisis-de-los-trasplantes-renales",
+    "href": "sources.html#análisis-de-los-trasplantes-renales",
+    "title": "Referencias",
+    "section": "",
+    "text": "Informes “Actividad de donación y trasplante renal en España” de la Organización Nacional de Trasplantes (ONT):\n\nInforme 2025\nInforme 2024\nInforme 2023\nInforme 2022\nInforme 2021\nInforme 2020"
+  },
+  {
+    "objectID": "sources.html#sec-presupuestos",
+    "href": "sources.html#sec-presupuestos",
+    "title": "Referencias",
+    "section": "Análisis presupuestarios",
+    "text": "Análisis presupuestarios\nEjecución Presupuestaria Mensual de las Comunidades Autónomas:\n\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016"
+  },
+  {
+    "objectID": "presupuestos.html",
+    "href": "presupuestos.html",
+    "title": "Presupuesto sanitario en hemodiálisis",
+    "section": "",
+    "text": "Presupuesto de hemodiálisis en Castilla-La Mancha, años 2016-2024.\n\n\n\n\n\nFuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas"
+  },
+  {
+    "objectID": "presupuestos.html#evolución-2016-2024",
+    "href": "presupuestos.html#evolución-2016-2024",
+    "title": "Presupuesto sanitario en hemodiálisis",
+    "section": "",
+    "text": "Presupuesto de hemodiálisis en Castilla-La Mancha, años 2016-2024.\n\n\n\n\n\nFuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas"
+  },
+  {
+    "objectID": "presupuestos.html#referencias",
+    "href": "presupuestos.html#referencias",
+    "title": "Presupuesto sanitario en hemodiálisis",
+    "section": "Referencias",
+    "text": "Referencias\nEjecución Presupuestaria Mensual de las Comunidades Autónomas."
   },
   {
     "objectID": "trasplantes.html",

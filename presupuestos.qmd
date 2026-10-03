@@ -1,0 +1,31 @@
+---
+title: Presupuesto sanitario en hemodiálisis
+execute: 
+  fig-height: 10
+  fig-width: 10
+---
+
+```{r}
+#| label: setup
+library(here)
+library(tidyverse)
+library(bslib)
+library(htmltools)
+library(plotly)
+
+source(here("R", "utils_helpers.R"))
+source(here("R", "fct_plots.R"))
+
+plot_presupuestos <- read_data("plot_presupuestos")
+```
+
+## Evolución 2016-2024
+
+```{r}
+#| label: plot-presupuestos
+card_with_info("presupuestos", "años 2016-2024", plot_presupuestos)
+```
+
+## Referencias
+
+[Ejecución Presupuestaria Mensual de las Comunidades Autónomas](sources.qmd#sec-presupuestos).
