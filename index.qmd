@@ -53,6 +53,21 @@ card_presupuestos <- card(
   )
 )
 
+card_privatizacion <- card(
+  card_header("Privatización sanitaria"),
+  card_body(
+    p(
+      "Privatización sanitaria de las comunidades autónomas."
+    ),
+    a(
+      href = "privatizacion.html",
+      class = "btn btn-primary",
+      "Ver el análisis"
+    )
+  )
+)
+
+
 card_fuentes <- card(
   card_header("Fuentes de información"),
   card_body(
@@ -73,6 +88,7 @@ layout_column_wrap(
   card_trasplantes,
   card_espera,
   card_presupuestos,
+  card_privatizacion,
   card_fuentes
 )
 ```

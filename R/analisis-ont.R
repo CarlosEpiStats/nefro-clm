@@ -4,6 +4,7 @@ library(plotly)
 library(here)
 
 source(here("R", "utils_helpers.R"))
+source(here("R", "fct_plots.R"))
 
 
 # Load data ----
@@ -53,6 +54,7 @@ datos_grafico <- datos |>
 # Trasplantes ----
 ## Gráfico de líneas ----
 plot_trasplantes_lineas <- plot_nefro_lines(
+  datos_grafico,
   y_var = "tasa_total",
   y_label = "Trasplantes por millón de población",
   text_var = "text_trasplantes"
@@ -68,6 +70,7 @@ plot_trasplantes_2025 <- plot_nefro_bars(2025)
 
 # Lista de espera ----
 plot_espera_lineas <- plot_nefro_lines(
+  datos_grafico,
   y_var = "le_pmp",
   y_label = "Lista de espera estimada por millón de población",
   text_var = "text_espera"

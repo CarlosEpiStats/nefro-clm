@@ -11,7 +11,7 @@
     "href": "index.html#explora-los-análisis",
     "title": "Nefrología en Castilla-La Mancha",
     "section": "Explora los análisis",
-    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nLista de espera renal\n\nEvolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nPresupuestos de hemodiálisis\n\nPresupuestos sanitarios anuales en Castilla-La Mancha: presupuestado vs. ejectuado.\nVer el análisis\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
+    "text": "Explora los análisis\n\n\n\n\n\nTrasplantes renales\n\nEvolución de la tasa de trasplantes renales por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nLista de espera renal\n\nEvolución de la lista de espera renal estimada por millón de población y comparación entre comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nPresupuestos de hemodiálisis\n\nPresupuestos sanitarios anuales en Castilla-La Mancha: presupuestado vs. ejectuado.\nVer el análisis\n\n\n\n\n\n\nPrivatización sanitaria\n\nPrivatización sanitaria de las comunidades autónomas.\nVer el análisis\n\n\n\n\n\n\nFuentes de información\n\nRelación de las fuentes empleadas en los análisis del proyecto.\nVer las fuentes"
   },
   {
     "objectID": "index.html#sobre-el-proyecto",
@@ -46,21 +46,21 @@
     "href": "espera.html",
     "title": "Lista de espera renal estimada por comunidad autónoma",
     "section": "",
-    "text": "Tasa de espera estimada por millón de población, años 2020-2025.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
+    "text": "Tasa de espera estimada por millón de población, años 2020-2025.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
   },
   {
     "objectID": "espera.html#evolución-2020-2025",
     "href": "espera.html#evolución-2020-2025",
     "title": "Lista de espera renal estimada por comunidad autónoma",
     "section": "",
-    "text": "Tasa de espera estimada por millón de población, años 2020-2025.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
+    "text": "Tasa de espera estimada por millón de población, años 2020-2025.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
   },
   {
     "objectID": "espera.html#datos-año-a-año",
     "href": "espera.html#datos-año-a-año",
     "title": "Lista de espera renal estimada por comunidad autónoma",
     "section": "Datos año a año",
-    "text": "Datos año a año\n\n202520242023202220212020\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2025.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2024.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2023.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2022.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2021.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2020.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
+    "text": "Datos año a año\n\n202520242023202220212020\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2025.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2024.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2023.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2022.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2021.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de espera estimada por millón de población, año 2020.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
   },
   {
     "objectID": "espera.html#evolución-de-castilla-la-mancha",
@@ -98,18 +98,60 @@
     "text": "Análisis presupuestarios\nEjecución Presupuestaria Mensual de las Comunidades Autónomas:\n\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016"
   },
   {
+    "objectID": "sources.html#sec-fadsp",
+    "href": "sources.html#sec-fadsp",
+    "title": "Referencias",
+    "section": "Privatización sanitaria",
+    "text": "Privatización sanitaria\nInforme de la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP):\n\n2026"
+  },
+  {
+    "objectID": "privatizacion.html",
+    "href": "privatizacion.html",
+    "title": "Privatización sanitaria de las comunidades autónomas",
+    "section": "",
+    "text": "El índice de privatización sanitaria está construido por la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP). El informe correspondiente al año 2026, incluyendo la metodología y fuentes utilizadas, está disponible en su página web."
+  },
+  {
+    "objectID": "privatizacion.html#introducción",
+    "href": "privatizacion.html#introducción",
+    "title": "Privatización sanitaria de las comunidades autónomas",
+    "section": "",
+    "text": "El índice de privatización sanitaria está construido por la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP). El informe correspondiente al año 2026, incluyendo la metodología y fuentes utilizadas, está disponible en su página web."
+  },
+  {
+    "objectID": "privatizacion.html#evolución-de-la-privatización-sanitaria-años-2014-2026",
+    "href": "privatizacion.html#evolución-de-la-privatización-sanitaria-años-2014-2026",
+    "title": "Privatización sanitaria de las comunidades autónomas",
+    "section": "Evolución de la privatización sanitaria, años 2014-2026",
+    "text": "Evolución de la privatización sanitaria, años 2014-2026\n\nÍndice de privatización global\n\n\n\nÍndice de privatización global, años 2014-2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nSeguros privados\n\n\n\nGasto sanitario en seguros privados, años 2014-2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nGasto sanitario de bolsillo\n\n\n\nGasto sanitario de bolsillo per cápita, años 2014-2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)"
+  },
+  {
+    "objectID": "privatizacion.html#privatización-sanitaria-en-2026",
+    "href": "privatizacion.html#privatización-sanitaria-en-2026",
+    "title": "Privatización sanitaria de las comunidades autónomas",
+    "section": "Privatización sanitaria en 2026",
+    "text": "Privatización sanitaria en 2026\n\nÍndice de privatización global\n\n\n\nÍndice de privatización global, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nMutualidades\n\n\n\nAfiliados a Mutualidades del Estado que eligen atención privada, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nSeguros privados\n\n\n\nGasto sanitario en seguros privados, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nGasto sanitario de bolsillo\n\n\n\nGasto sanitario de bolsillo per cápita, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nCamas hospitalarias privadas\n\n\n\nCamas hospitalarias privadas, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nAlta tecnología privada\n\n\n\nPorcentaje de alta tecnología en hospitales privados, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nConciertos sanitarios privados\n\n\n\nGasto sanitario destinado a conciertos privados, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nEspecialistas privados\n\n\n\nPersonas que acudieron a consultas de especialistas privados, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)\n\n\n\n\n\n\n\n\n\n\n\nMédicos de cabecera privados\n\n\n\nPersonas que acudieron a consultas del médico de cabecera privado, año 2026.\n\n\n\n\n\nFuente: Informe La privatización sanitaria de las CCAA 2026 (FADSP)"
+  },
+  {
+    "objectID": "privatizacion.html#referencias",
+    "href": "privatizacion.html#referencias",
+    "title": "Privatización sanitaria de las comunidades autónomas",
+    "section": "Referencias",
+    "text": "Referencias\nInforme de la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP)."
+  },
+  {
     "objectID": "presupuestos.html",
     "href": "presupuestos.html",
     "title": "Presupuesto sanitario en hemodiálisis",
     "section": "",
-    "text": "Presupuesto de hemodiálisis en Castilla-La Mancha, años 2016-2024.\n\n\n\n\n\nFuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas"
+    "text": "Presupuesto de hemodiálisis en Castilla-La Mancha, años 2016-2024.\n\n\nFuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas"
   },
   {
     "objectID": "presupuestos.html#evolución-2016-2024",
     "href": "presupuestos.html#evolución-2016-2024",
     "title": "Presupuesto sanitario en hemodiálisis",
     "section": "",
-    "text": "Presupuesto de hemodiálisis en Castilla-La Mancha, años 2016-2024.\n\n\n\n\n\nFuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas"
+    "text": "Presupuesto de hemodiálisis en Castilla-La Mancha, años 2016-2024.\n\n\nFuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas"
   },
   {
     "objectID": "presupuestos.html#referencias",
@@ -123,21 +165,21 @@
     "href": "trasplantes.html",
     "title": "Tasa de trasplantes renales por comunidad autónoma",
     "section": "",
-    "text": "Tasa de trasplantes renales por millón de población, años 2020-2025.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
+    "text": "Tasa de trasplantes renales por millón de población, años 2020-2025.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
   },
   {
     "objectID": "trasplantes.html#evolución-2020-2025",
     "href": "trasplantes.html#evolución-2020-2025",
     "title": "Tasa de trasplantes renales por comunidad autónoma",
     "section": "",
-    "text": "Tasa de trasplantes renales por millón de población, años 2020-2025.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
+    "text": "Tasa de trasplantes renales por millón de población, años 2020-2025.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
   },
   {
     "objectID": "trasplantes.html#datos-año-a-año",
     "href": "trasplantes.html#datos-año-a-año",
     "title": "Tasa de trasplantes renales por comunidad autónoma",
     "section": "Datos año a año",
-    "text": "Datos año a año\n\n202520242023202220212020\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2025.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2024.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2023.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2022.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2021.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2020.\n\n\n\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
+    "text": "Datos año a año\n\n202520242023202220212020\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2025.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2024.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2023.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2022.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2021.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasa de trasplantes renales por millón de población, año 2020.\n\n\nFuente: Informes de la Organización Nacional de Trasplantes"
   },
   {
     "objectID": "trasplantes.html#evolución-de-castilla-la-mancha",

@@ -80,9 +80,37 @@ plot_nefro_bars <- function(year_val, variable = c("trasplantes", "espera")) {
   p |> make_plotly()
 }
 
+#' Bar plot (privatizacion)
+plot_privat_bars <- function(data, var, axis_label) {
+  data <- data |>
+    mutate(
+      text = str_glue(
+        "Región: {ccaa}<br>Año: {year}<br>Valor: {.data[[var]]}"
+      )
+    )
+
+  p <- data |>
+    ggplot(
+      aes(
+        x = .data[[var]],
+        y = fct_reorder(ccaa, .data[[var]]),
+        fill = tipo_region,
+        text = text
+      )
+    ) +
+    geom_col() +
+    scale_fill_manual(values = values_nefro()) +
+    labs(
+      x = axis_label,
+      y = NULL,
+      fill = NULL
+    ) +
+    theme_nefro()
+  p |> make_plotly()
+}
+
 #' Line plot
-plot_nefro_lines <- function(y_var, y_label, text_var) {
-  data <- datos_grafico
+plot_nefro_lines <- function(data, y_var, y_label, text_var) {
   plot <- ggplot(
     data,
     aes(

@@ -21,8 +21,11 @@ read_data <- function(filename) {
 
 #' Create bslib card with default header and footer
 card_with_info <- function(
-  mode = c("trasplantes", "espera", "presupuestos"),
+  mode = c("trasplantes", "espera", "presupuestos", "libre"),
   year,
+  header_text = NULL,
+  source_text = NULL,
+  source_sec = NULL,
   ...
 ) {
   mode <- match.arg(mode)
@@ -49,6 +52,12 @@ card_with_info <- function(
     footer <- a(
       "Fuente: Ejecución Presupuestaria Mensual de las Comunidades Autónomas",
       href = "sources.html#sec-presupuestos"
+    )
+  } else if (mode == "libre") {
+    header <- str_glue("{header_text}, {year}.")
+    footer <- a(
+      str_glue("Fuente: {source_text}"),
+      href = str_glue("sources.html#{source_sec}")
     )
   }
   card(

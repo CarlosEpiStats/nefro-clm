@@ -28,3 +28,9 @@ Ejecución Presupuestaria Mensual de las Comunidades Autónomas:
 - [2018](documentos/presupuestos/2018.pdf)
 - [2017](documentos/presupuestos/2017.pdf)
 - [2016](documentos/presupuestos/2016.pdf)
+
+## Privatización sanitaria {#sec-fadsp}
+
+Informe de la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP):
+
+- [2026](documentos/privatizacion/DOCUMENTO-DE-PRIVATIZACION-FADSP-2026-COMPLETO-4-1-1v2.pdf)

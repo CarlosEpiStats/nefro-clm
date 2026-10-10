@@ -1,0 +1,203 @@
+---
+title: Privatización sanitaria de las comunidades autónomas
+execute: 
+  fig-height: 10
+  fig-width: 10
+---
+
+```{r}
+#| label: setup
+library(here)
+library(tidyverse)
+library(bslib)
+library(htmltools)
+library(plotly)
+
+source(here("R", "utils_helpers.R"))
+source(here("R", "fct_plots.R"))
+
+plot_privat_mutuas <- read_data("plot_privat_mutuas")
+plot_privat_seg_priv <- read_data("plot_privat_seg_priv")
+plot_privat_gs_bols <- read_data("plot_privat_gs_bols")
+plot_privat_camas_privadas <- read_data("plot_privat_camas_privadas")
+plot_privat_at_privada <- read_data("plot_privat_at_privada")
+plot_privat_gs_conciertos <- read_data("plot_privat_gs_conciertos")
+plot_privat_esp_priv <- read_data("plot_privat_esp_priv")
+plot_privat_med_cab_priv <- read_data("plot_privat_med_cab_priv")
+plot_privat_global <- read_data("plot_privat_global")
+plot_privat_evol_global <- read_data("plot_privat_evol_global")
+plot_privat_evol_bolsillo <- read_data("plot_privat_evol_bolsillo")
+plot_privat_evol_seguro <- read_data("plot_privat_evol_seguro")
+
+source_text <- "Informe La privatización sanitaria de las CCAA 2026 (FADSP)"
+source_sec <- "sec-fadsp"
+```
+## Introducción
+
+El índice de privatización sanitaria está construido por la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP). El informe correspondiente al año 2026, incluyendo la metodología y fuentes utilizadas, está disponible [en su página web](https://fadsp.es/privatizacion-sanitaria-ccaa-2026/).
+
+## Evolución de la privatización sanitaria, años 2014-2026
+
+### Índice de privatización global
+
+```{r}
+#| label: plot_privat_evol_global
+card_with_info(
+  mode = "libre",
+  year = "años 2014-2026",
+  header_text = "Índice de privatización global",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_evol_global)
+```
+
+### Seguros privados
+
+```{r}
+#| label: plot_privat_evol_seguro
+card_with_info(
+  mode = "libre",
+  year = "años 2014-2026",
+  header_text = "Gasto sanitario en seguros privados",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_evol_seguro)
+```
+
+### Gasto sanitario de bolsillo
+
+```{r}
+#| label: plot_privat_evol_bolsillo
+card_with_info(
+  mode = "libre",
+  year = "años 2014-2026",
+  header_text = "Gasto sanitario de bolsillo per cápita",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_evol_bolsillo)
+```
+
+
+## Privatización sanitaria en 2026
+
+### Índice de privatización global
+
+```{r}
+#| label: plot-privat-global
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Índice de privatización global",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_global)
+```
+
+### Mutualidades
+
+```{r}
+#| label: plot-privat-mutuas
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Afiliados a Mutualidades del Estado que eligen atención privada",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_mutuas)
+```
+
+### Seguros privados
+
+```{r}
+#| label: plot-privat-seg-priv
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Gasto sanitario en seguros privados",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_seg_priv)
+```
+
+### Gasto sanitario de bolsillo
+
+```{r}
+#| label: plot-privat-gs-bols
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Gasto sanitario de bolsillo per cápita",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_gs_bols)
+```
+
+### Camas hospitalarias privadas
+
+```{r}
+#| label: plot_privat_camas_privadas
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Camas hospitalarias privadas",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_camas_privadas)
+```
+
+### Alta tecnología privada
+
+```{r}
+#| label: plot_privat_at_privada
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Porcentaje de alta tecnología en hospitales privados",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_at_privada)
+```
+
+### Conciertos sanitarios privados
+
+```{r}
+#| label: plot_privat_gs_conciertos
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Gasto sanitario destinado a conciertos privados",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_gs_conciertos)
+```
+
+### Especialistas privados
+
+```{r}
+#| label: plot_privat_esp_priv
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Personas que acudieron a consultas de especialistas privados",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_esp_priv)
+```
+
+### Médicos de cabecera privados
+
+```{r}
+#| label: plot_privat_med_cab_priv
+card_with_info(
+  mode = "libre",
+  year = "año 2026",
+  header_text = "Personas que acudieron a consultas del médico de cabecera privado",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_privat_med_cab_priv)
+```
+
+
+## Referencias
+
+[Informe de la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP)](sources.qmd#sec-fadsp).
