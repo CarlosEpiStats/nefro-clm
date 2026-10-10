@@ -23,10 +23,10 @@ read_data <- function(filename) {
 card_with_info <- function(
   mode = c("trasplantes", "espera", "presupuestos", "libre"),
   year,
+  ...,
   header_text = NULL,
   source_text = NULL,
-  source_sec = NULL,
-  ...
+  source_sec = NULL
 ) {
   mode <- match.arg(mode)
   if (mode == "trasplantes") {
