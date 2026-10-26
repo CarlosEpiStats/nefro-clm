@@ -10,5 +10,5 @@ renv::install("tabulapdf")
 renv::install("janitor")
 renv::install("cli")
 renv::install("scales")
-
+renv::install("readxl")
 renv::snapshot()

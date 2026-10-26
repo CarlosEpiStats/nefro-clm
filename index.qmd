@@ -67,6 +67,21 @@ card_privatizacion <- card(
   )
 )
 
+card_barometro <- card(
+  card_header("Opinión de las listas de espera"),
+  card_body(
+    p(
+      "Opinión sobre la evolución de la lista de espera sanitaria en las comunidades autónomas"
+    ),
+    a(
+      href = "barometro.html",
+      class = "btn btn-primary",
+      "Ver el análisis"
+    )
+  )
+)
+
+
 
 card_fuentes <- card(
   card_header("Fuentes de información"),
@@ -89,6 +104,7 @@ layout_column_wrap(
   card_espera,
   card_presupuestos,
   card_privatizacion,
+  card_barometro,
   card_fuentes
 )
 ```

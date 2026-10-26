@@ -22,6 +22,8 @@ website:
           text: Presupuestos de hemodiálisis
         - href: privatizacion.qmd
           text: Privatización sanitaria
+        - href: barometro.qmd
+          text: Opinión sobre las listas de espera
         - href: sources.qmd
           text: Referencias
       - href: about.qmd

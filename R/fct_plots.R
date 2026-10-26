@@ -154,9 +154,6 @@ plot_nefro_lines <- function(data, y_var, y_label, text_var) {
       alpha = 1
     ) +
     scale_color_manual(values = values_nefro()) +
-    scale_x_continuous(
-      breaks = sort(unique(data$year))
-    ) +
     labs(
       x = "Año",
       y = y_label,

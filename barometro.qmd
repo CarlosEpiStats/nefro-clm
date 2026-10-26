@@ -1,0 +1,88 @@
+---
+title: Opinión sobre la evolución de las listas de espera
+execute: 
+  fig-height: 10
+  fig-width: 10
+---
+
+```{r}
+#| label: setup
+library(here)
+library(tidyverse)
+library(bslib)
+library(htmltools)
+library(plotly)
+
+source(here("R", "utils_helpers.R"))
+source(here("R", "fct_plots.R"))
+
+plot_barometro_mejorado_lineas <- read_data("plot_barometro_mejorado_lineas")
+plot_barometro_empeorado_lineas <- read_data("plot_barometro_empeorado_lineas")
+plot_barometro_igual_lineas <- read_data("plot_barometro_igual_lineas")
+plot_barometro_nose_lineas <- read_data("plot_barometro_nose_lineas")
+
+source_text <- "Barómetro Sanitario"
+source_sec <- "sec-barometro"
+```
+
+## Opinión de que las listas de espera han empeorado
+
+```{r}
+#| label: plot_barometro_empeorado_lineas
+card_with_info(
+  mode = "libre",
+  year = "años 2000-2025",
+  header_text = "Porcentaje de encuestados que creen que las listas de espera han EMPEORADO en el último año",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_barometro_empeorado_lineas
+)
+```
+
+
+## Opinión de que las listas de espera han mejorado
+
+```{r}
+#| label: plot_barometro_mejorado_lineas
+card_with_info(
+  mode = "libre",
+  year = "años 2000-2025",
+  header_text = "Porcentaje de encuestados que creen que las listas de espera han MEJORADO en el último año",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_barometro_mejorado_lineas
+)
+```
+
+## Opinión de que las listas de espera siguen igual
+
+```{r}
+#| label: plot_barometro_igual_lineas
+card_with_info(
+  mode = "libre",
+  year = "años 2000-2025",
+  header_text = "Porcentaje de encuestados que creen que las listas de espera siguen IGUAL en el último año",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_barometro_igual_lineas
+)
+```
+
+## Porcentaje de encuestados que no saben cómo van las listas de espera
+
+```{r}
+#| label: plot_barometro_nose_lineas
+card_with_info(
+  mode = "libre",
+  year = "años 2000-2025",
+  header_text = "Porcentaje de encuestados que creen que NO SABEN cómo han evolucionado las listas de espera en el último año",
+  source_text = source_text,
+  source_sec = source_sec,
+  plot_barometro_nose_lineas
+)
+```
+
+
+## Referencias
+
+[Barómetro Sanitario - Principales variables por CCAA](sources.qmd#sec-barometro).

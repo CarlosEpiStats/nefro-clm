@@ -34,3 +34,7 @@ Ejecución Presupuestaria Mensual de las Comunidades Autónomas:
 Informe de la Federación de Asociaciones para la Defensa de la Sanidad Pública (FADSP):
 
 - [2026](documentos/privatizacion/DOCUMENTO-DE-PRIVATIZACION-FADSP-2026-COMPLETO-4-1-1v2.pdf)
+
+## Barómetro sanitario {#sec-barometro}
+
+[Barómetro Sanitario - Principales variables por CCAA](R/data/BS_1998-2025_Principales_variables_CCAA.xlsx)
